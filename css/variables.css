@@ -1,0 +1,20 @@
+/* 
+    We can use something called CSS variables that allow us to use custom properties, that we can then call in our other CSS files. Once we figure out a color scheme (or any other preset properties we'd like to use), we can use custom properties to create CSS variables. This saves time later when we want to access a certain color or specific property.
+*/
+
+:root {
+    --red: #e80d0d;
+    --orange: #f98500;
+    --yellow: #ffc600;
+    --green: #10a503;
+    --blue-green: rgb(14, 14, 134);
+    --purple: #6a00b2;
+    --brown: #6d6656;
+    --grey: #53565a;
+    --black: #272727;
+}
+
+@font-face {
+    font-family: "Noto Sans JP";
+    src: url();
+}
