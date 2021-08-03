@@ -1,5 +1,60 @@
 body {
-    background-image: "./assets/fabrice-villard-SY6Co6A8Xu0-unsplash.jpg";
+    background-image: url("../assets/patrick-fore-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
+    /* display: flex; */
+}
+
+.wrapper {
+    position: absolute;
+    left: 1.5%;
+    top: 60px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 95%;
+    border-style: dashed;
+    border-width: 3px;
+    border-radius: 3px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: rgba(181,181,181,0.5);
+    margin: 12px;
+    padding: 8px;
+    padding-bottom: 20px;
+}
+
+hr.fatBoy {
+    
+    height: 5px;
+    width: 95%;
+    border-style: solid;
+    border-color: darkgray;
+    border-radius: 4px;
+}
+
+.contactDiv {
+    justify-items: center;
+}
+
+/* .footers {
+    position: relative;
+    width: 45%;
+    border-style: dashed;
+    border-color: rgba(83, 83, 83, 0.5);
+    border-width: 3px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: small;
+    top: 0;
+} */
+
+#footers {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+    color: rgb(80, 80, 80);
+    font-size: small;
+    padding-top: 10px;
 }
