@@ -6,26 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Google font link -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"> -->
     <!-- My CSS links -->
-    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="./body.css">
     
     <title>Portfolio</title>
-    <!-- What is Bootstrap -->
-    <!-- Bootstrap is an HTML, CSS, JS framework for developing responsive mobile-first projects.
-        
-            How do I use Bootstrap?
-            -- go to https://getbootstrap.com
-            -- Get started
-    -->
 </head>
 <body>
+    <h1 id="top"></h1>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#top">RC Portfolio</a>
+            <a class="navbar-brand" href="index.html#top">RC Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,27 +30,33 @@
             </div>
         </div>
     </nav>
-    <h1 id="top"></h1>
+    <h1 id="aboutJump"></h1>
     <div class="wrapper">
       <!-- Header section -->
       <div class="container-fluid landing">
         <div class="container">
-            <h1 class="display-4">Richard Carter's Portfolio</h1><h1 id="aboutJump"></h1>
-            <p class="lead">A collection of web development projects from my time at ElevenFifty Academy.</p>
+            <h1 class="text-center text-uppercase">My Portfolio</h1>
         </div>
       </div>
       <center><hr class="fatBoy"></center>
       <!-- About Me -->
       <section id="aboutMe">
-          <h1 style="text-align: center;">About Me</h1>
+          <h2 class="text-center text-uppercase" id="headText">About Me</h1>
+          <center><hr class="thinBoy"></center>
           <div class="container">
             <div class="row justify-content-around">
                   <div class="col-2">
-                    <img src="assets/business-self.jpg" width="300" height="299">
+                    <img src="./assets/business-self.jpg" class="myImg">
                   </div>
                   <div class="col-7">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis obcaecati iste recusandae blanditiis eius hic, deserunt autem in eveniet ex magni esse odio at cumque. Voluptatum tempora deserunt, aspernatur vitae incidunt non eaque, expedita eligendi dolore obcaecati officiis quaerat repellat eum vero explicabo fugiat recusandae fugit. Illo repellat officia excepturi.
+                        My name is Richard Carter.<p>
+                        
+                        I am originally from the great state of Georgia, although I grew up mostly in Tennessee. Currently I live near Dallas, TX.<p>
+                        
+                        I am an Army veteran, serving a total of 8 years between active duty service and active National Guard service, with multiple overseas deployments. I'm very proud of my service and have carried so many lessons learned during my service into my regular civilian life. I am also a father, raising my three children who all live with me and range from 8-14 years of age.<p>
+                        
+                        My goal is to become a web/software developer. I have an adjacent interest in crypto technologies and would like to eventually move into that industry as I learn more and improve as a developer. In the meantime, I want to learn as much as I can and contribute growth to great companies, regardless of their size. I am an intelligent and motivated worker; I am dedicated to my family and providing for them and look forward to experiencing this beautiful life with them.
                         <h1 id="projectsJump"></h1>
                     </p>
                   </div>
@@ -72,27 +68,35 @@
       <!-- Project section -->
       <!-- Bootstrap grid system - 12 columns, row and col classes -->
       <section id="projects">
-          <h1 style="text-align: center;">Projects</h1>
-          <div class="container">
-              <div class="row">
-                  <div class="col-4">
-                      <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, impedit officia fugiat asperiores aperiam nulla eius culpa sint. Fuga libero aliquam facere odio doloremque dolore totam id ab consectetur. Ducimus suscipit reprehenderit ipsa cum porro quidem. Ad corporis sit totam accusantium. Facere doloremque possimus rem voluptates, quis architecto ipsum minima.
-                      </p>
-                  </div>
-                  <div class="col-4">
-                      <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ab tempora adipisci! Porro sunt atque asperiores, ipsam, ipsum tempora consequuntur animi incidunt eaque perferendis aperiam! Ipsam, earum suscipit.
-                      </p>
-                  </div>
-                  <div class="col-4">
-                      <p>
-                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque cum sunt est voluptatem cupiditate architecto ipsa, magnam quaerat recusandae nostrum autem, nobis accusantium ea quidem necessitatibus hic. Vero animi ipsum magnam dicta soluta. Ut impedit assumenda voluptate omnis quibusdam! Nisi, molestias repudiandae?
-                          <h1 id="contactJump"></h1>
-                        </p>
-                  </div>
-              </div>
-          </div>
+            <h2 class="text-center text-uppercase" id="headText">Projects</h1>
+            <center><hr class="thinBoy"></center>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <a href="https://rcartr.github.io/staticLayout/" target="blank"><center><img src="assets/staticSiteThumbnail.png" class="thumbnail"></center><br>
+                        <h3 class="text-center">Static Layout</h3></a>
+                        <p class="subtext">A static recreation of a dynamic website, meant to help us get acquainted with CSS styling and placement.</p><br>
+                        
+                        <a href="https://codepen.io/rcartr/pen/GRmvKmP" target="blank"><center><img src="./assets/cssCreaturePreview.png" class="thumbnail"></center><br>
+                        <h3 class="text-center">CSS Creature</h3></a>
+                        <p class="subtext">A challenge to create a creature using only CSS shapes and modifiers. Link opens in Codepen.</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="https://rcartr.github.io/apiProject1/" target="blank"><center><img src="assets/apiProject1Thumbnail.png" class="thumbnail"></center><br>
+                        <h3 class="text-center">API Project 1</h3></a>
+                        <p class="subtext">Our first API challenge after being introduced to the basics of using JavaScript to write simple web apps that connect to APIs.<br><br>
+
+                        I selected the Pokemon API from the list we were given and decided to pull some basic info for a few of my favorite Pokemon.</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="https://carter-agi-project2.web.app" target="blank"><center><img src="assets/apiProject2Thumbnail.png" class="thumbnail"></center><br>
+                        <h3 class="text-center">API Project 2</h3></a>
+                        <p class="subtext">Our second API challenge, requiring a key to be used in the API fetch and a little more refined use of DOM manipulation.<br><br>
+                    
+                        For this challenge, I selected the NASA API from the list we were given. I decided to pull the NASA photo of the day and display some of its associated info. The page will show a new photo each day.</p>
+                    </div>
+                </div>
+            </div>
         </section>
         <h1 id="contactJump"></h1>
         <center><hr class="fatBoy"></center>
@@ -101,9 +105,10 @@
                 Our contact form is powered by Formspree, a free email service for HTML forms that re-routes any form submissions to the provided email (should be YOUR email). This allows us to use form submission on our portfolio without using any JS to post/route the form to us - Formspree does that for us! -->
         <section id="contact">
             <div class="container">
-                <h2 class="text-center text-uppercase">Contact Me</h2>
-                <div class="row justify-content-around">
-                    <div class="col-12 text-center">
+                <h2 class="text-center text-uppercase" id="headText">Contact Me</h2>
+                <center><hr class="thinBoy"></center>
+                <div class="row justify-content-evenly">
+                    <div class="col-4">
                         <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xeqvrzww" method="post">
                             <fieldset id="fs-frm-inputs">
                               <label for="full-name">Full Name</label><br>
@@ -111,23 +116,28 @@
                               <label for="email-address">Email Address</label><br>
                               <input type="email" size="50" name="_replyto" id="email-address" placeholder="email@domain.com" required=""><br><br>
                               <label for="message">Message</label><br>
-                              <textarea rows="5" cols="75" name="message" id="message" placeholder="Please write your message or inquiry here." required=""></textarea>
+                              <textarea rows="5" cols="50" name="message" id="message" placeholder="Please write your message or inquiry here." required=""></textarea>
                               <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                             </fieldset><br>
                             <input type="submit" value="Submit">
                           </form>
 
                     </div>
+                    <div class="col-2">
+                        <p>
+                            <b><u>Link Tree</u></b><p>
+                            <a href="./assets/EFA-Portfolio-Resume.pdf" target="blank">My Resume (pdf)</a><p>
+                            <a href="https://github.com/rcartr" target="blank">[GitHub]</a><br>
+                            <a href="https://www.linkedin.com/in/rcarter52/" target="blank">[LinkedIn]</a><br>
+                            <a href="https://twitter.com/rbcrtr" target="blank">[Twitter]</a><br>
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
-        <center>
-            <!-- <div class="footers">  -->
-                <footer id="footers">
-                    Built by Richard Carter in 2021
-                </footer>
-            <!-- </div> -->
-            </center>
+    </div>
+    <div class="footers">
+        <footer><p>Built by Richard Carter</p></footer>
     </div>
     
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
