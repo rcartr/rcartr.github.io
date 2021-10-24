@@ -13,5 +13,8 @@ In this section, I will cover pertinent details and dependencies utilized for th
   - MUI Icons ^5.0.4
   - @fontsource/roboto ^4.5.1
 
+### Attribution
+- Browser icon is used with license from [Flaticon and smashingstocks](https://www.flaticon.com/premium-icon/professional-portfolio_4361101?term=portfolio&page=1&position=11&page=1&position=11&related_id=4361101&origin=tag)
+
 ### Contact
 If you would like to contact me, I can be reached at: [rbc.coding@gmail.com](mailto:rbc.coding@gmail.com)
