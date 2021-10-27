@@ -43,7 +43,7 @@ function Body() {
                     <Grid item xs={12} sm={6} md={4}>
                         <Item><Typography variant="body1" align="left">My name is Richard Carter.<br/>
                         Located near Dallas, TX.<p/>
-                        US Army veteran, single parent, aspiring web developer with adjacent interests in the crypto industry.<p/>
+                        US Army veteran, single parent, aspiring and versatile web developer with adjacent interests in UI/UX and the crypto industry.<p/>
                         Eager to improve my skills as a developer and deliver quality web products. This portfolio page will be updated as needed and improved as my skill level increases.</Typography></Item>
                     </Grid>
                 </Grid>
