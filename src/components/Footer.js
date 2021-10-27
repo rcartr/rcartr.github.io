@@ -21,16 +21,16 @@ function Footer() {
                     sx={{
                         py: 3, px: 2, mt: 'auto',
                         backgroundColor: (theme) =>
-                        theme.palette.mode === 'light'
+                        theme.palette.mode === 'dark'
                         ? theme.palette.grey[200]
                         : theme.palette.grey[800],
                     }}
                     >
                     <Container maxWidth="sm">
-                    <Typography variant="subtitle1" color="text.secondary" gutterBottom>
-                        This portfolio is designed, developed, and written by Richard Carter.
+                    <Typography variant="subtitle1" color="secondary" gutterBottom>
+                        Designed and written by Richard Carter.
                     </Typography>
-                    <Typography variant="subtitle2" color="text.secondary">
+                    <Typography variant="subtitle2" color="secondary">
                     Copyright © 2021
                     </Typography>
                     </Container>
