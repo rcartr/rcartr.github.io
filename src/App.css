@@ -1,0 +1,21 @@
+.App {
+  font-family: Roboto;
+}
+
+body {
+  background-image: url('../src/assets/canvas_bg1.jpg');
+  background-size: inherit;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.bodyBox {
+  padding: 20px;
+}
+
+.myPic {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  border: ridge 2px rgb(158, 158, 158)
+}
