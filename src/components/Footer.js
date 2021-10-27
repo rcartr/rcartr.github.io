@@ -8,16 +8,7 @@ import Container from '@mui/material/Container';
 function Footer() {
 
         return(
-            <Box
-                sx={{
-                    display: 'flex',
-                    flexDirection: 'column',
-                    minHeight: '100vh',
-                }}
-            >
-                <CssBaseline />
-                    
-                <Box component="footer"
+            <Box component="footer"
                     sx={{
                         py: 3, px: 2, mt: 'auto',
                         backgroundColor: (theme) =>
@@ -35,7 +26,6 @@ function Footer() {
                     </Typography>
                     </Container>
                 </Box>
-            </Box>
         )
 }
 

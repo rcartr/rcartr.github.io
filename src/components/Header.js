@@ -21,7 +21,7 @@ function Header() {
                         >
                             <WorkIcon />
                         </IconButton>
-                        <Typography variant="h6" component="div">My Portfolio</Typography>
+                        <Typography variant="h6" component="div">Richard Carter's Portfolio</Typography>
                     </Toolbar>
                 </AppBar>
                 <Toolbar />
