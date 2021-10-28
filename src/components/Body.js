@@ -2,6 +2,7 @@ import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import Link from '@mui/material/Link';
@@ -12,20 +13,24 @@ import { CardActionArea, Divider } from '@mui/material';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import IconButton from '@mui/material/IconButton';
+import Tooltip from '@mui/material/Tooltip';
 
 import mySelfie from '../assets/business-self.jpg';
+import resumeLink from '../assets/EFA-WebDev-Resume.pdf';
 import apiProject1 from '../assets/apiProject1Thumbnail.png'
 import apiProject2 from '../assets/apiProject2Thumbnail.png'
 import staticSite from '../assets/staticSiteThumbnail.png';
 import cssCreature from '../assets/cssCreaturePreview.png';
 import oldPortfolio from '../assets/originalPortfolio.png';
+import ContactMe from './ContactMe';
 
 const Item = styled(Paper)(({ theme }) => ({
     ...theme.typography.body2,
     padding: theme.spacing(1),
     textAlign: 'center',
-    color: theme.palette.text.secondary,
+    color: theme.palette.primary,
   }));
 
 
@@ -45,6 +50,28 @@ function Body() {
                         Located near Dallas, TX.<p/>
                         US Army veteran, single parent, aspiring and versatile web developer with adjacent interests in UI/UX and the crypto industry.<p/>
                         Eager to improve my skills as a developer and deliver quality web products. This portfolio page will be updated as needed and improved as my skill level increases.</Typography></Item>
+                        <Container sx={{ padding: '5px' }}>
+                            <Tooltip title="My Resume" arrow>
+                                <Link href={resumeLink} target="blank" rel="noopener">
+                                <IconButton><PictureAsPdfIcon/></IconButton>
+                                </Link>
+                            </Tooltip>
+                            <Tooltip title="My LinkedIn profile" arrow>
+                            <Link href="https://www.linkedin.com/in/rcarter52/" target="blank" rel="noopener">
+                                <IconButton><LinkedInIcon/></IconButton>
+                            </Link>
+                            </Tooltip>
+                            <Tooltip title="My GitHub page" arrow>
+                            <Link href="https://github.com/rcartr" target="blank" rel="noopener">
+                                <IconButton><GitHubIcon/></IconButton>
+                            </Link>
+                            </Tooltip>
+                            <Tooltip title="My Twitter profile" arrow>
+                            <Link href="https://twitter.com/rbcrtr" target="blank" rel="noopener">
+                                <IconButton><TwitterIcon/></IconButton>
+                            </Link>
+                            </Tooltip>
+                        </Container>
                     </Grid>
                 </Grid>
                 <Divider>PROJECTS</Divider>
@@ -150,6 +177,8 @@ function Body() {
                         </Card>
                     </Grid>
                 </Grid>
+                <Divider>CONTACT</Divider>
+                <ContactMe />
                     </center>
             </Box>
         )

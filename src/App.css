@@ -19,3 +19,13 @@ body {
   border-radius: 10px;
   border: ridge 2px rgb(158, 158, 158)
 }
+
+.main {
+  /* border: solid 1px black; */
+  padding: 10px;
+  margin: 10px;
+}
+
+#fs-frm {
+  max-width: 400px;
+}
