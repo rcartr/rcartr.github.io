@@ -158,7 +158,7 @@ function Body() {
                     </Grid>
                     <Grid item xs={12} sm={6} md={4}>
                         <Card sx={{ maxWidth: 345 }}>
-                            <CardActionArea href="https://rcartr.github.io/oldindex.html" target="blank">
+                            <CardActionArea href="https://rcartr.github.io/oldPortfolio/" target="blank">
                             <CardMedia
                                 component="img"
                                 height="140"
@@ -178,7 +178,9 @@ function Body() {
                     </Grid>
                 </Grid>
                 <Divider>CONTACT</Divider>
+                <Grid container maxWidth="90%" padding="20px" direction="row" spacing={1} justifyContent="center" rowSpacing={3}>
                 <ContactMe />
+                </Grid>
                     </center>
             </Box>
         )
