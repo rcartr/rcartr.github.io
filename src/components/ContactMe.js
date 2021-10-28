@@ -6,7 +6,7 @@ import TextField  from '@mui/material/TextField';
 
 const ContactMe = () => {
     return(
-        <Box className="contactBox" width="450" sx={{ padding: '10px', margin: '10px' }}>
+        <Box className="contactBox" width="390" sx={{ padding: '10px', margin: '10px' }}>
             <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xeqvrzww" method="post">
                 <fieldset id="fs-frm-inputs">
                     <label for="full-name">Full Name</label><br/>

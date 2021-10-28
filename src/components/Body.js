@@ -179,7 +179,9 @@ function Body() {
                 </Grid>
                 <Divider>CONTACT</Divider>
                 <Grid container maxWidth="90%" padding="20px" direction="row" spacing={1} justifyContent="center" rowSpacing={3}>
-                <ContactMe />
+                    {/* <Grid item xs={12} sm={6} md={4}> */}
+                        <ContactMe />
+                    {/* </Grid> */}
                 </Grid>
                     </center>
             </Box>
