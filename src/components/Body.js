@@ -90,7 +90,7 @@ function Body() {
                                     API Project 1
                                 </Typography>
                                 <Typography variant="subtitle2" color="text.secondary" align="left">
-                                    EFA Project - First JavaScript project for making API fetch calls. Basic use of GET fetch and DOM manipulation.
+                                    EFA Project - First JavaScript project for making API fetch calls. Basic use of GET fetch and DOM rendering.
                                 </Typography>
                             </CardContent>
                             </CardActionArea>
@@ -110,7 +110,7 @@ function Body() {
                                     API Project 2
                                 </Typography>
                                 <Typography variant="subtitle2" color="text.secondary" align="left">
-                                    EFA Project - Second JavaScript project for making API fetch calls, requiring a key and more sophisticated DOM manipulation.
+                                    EFA Project - JavaScript project for making API fetches requiring a key and more sophisticated DOM manipulation. Pic refreshes daily.
                                 </Typography>
                             </CardContent>
                             </CardActionArea>
@@ -150,7 +150,7 @@ function Body() {
                                     CSS Creature
                                 </Typography>
                                 <Typography variant="subtitle2" color="text.secondary" align="left">
-                                    EFA Project - Using HTML divs and CSS to create a "CSS Creature".
+                                    EFA Project - Using HTML divs and CSS to create a "CSS Creature". Opens in CodePen website.
                                 </Typography>
                             </CardContent>
                             </CardActionArea>
